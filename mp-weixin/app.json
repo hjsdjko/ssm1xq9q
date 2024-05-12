@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/huiyuan/list",
+    "pages/huiyuan/add-or-update",
+    "pages/huiyuan/detail",
+    "pages/changguanleixing/list",
+    "pages/changguanleixing/add-or-update",
+    "pages/changguanleixing/detail",
+    "pages/yongchileixing/list",
+    "pages/yongchileixing/add-or-update",
+    "pages/yongchileixing/detail",
+    "pages/yinshileixing/list",
+    "pages/yinshileixing/add-or-update",
+    "pages/yinshileixing/detail",
+    "pages/changguanxinxi/list",
+    "pages/changguanxinxi/add-or-update",
+    "pages/changguanxinxi/detail",
+    "pages/yongchixinxi/list",
+    "pages/yongchixinxi/add-or-update",
+    "pages/yongchixinxi/detail",
+    "pages/yinshixinxi/list",
+    "pages/yinshixinxi/add-or-update",
+    "pages/yinshixinxi/detail",
+    "pages/yongchiyuding/list",
+    "pages/yongchiyuding/add-or-update",
+    "pages/yongchiyuding/detail",
+    "pages/goumaixinxi/list",
+    "pages/goumaixinxi/add-or-update",
+    "pages/goumaixinxi/detail",
+    "pages/huiyuandengji/list",
+    "pages/huiyuandengji/add-or-update",
+    "pages/huiyuandengji/detail",
+    "pages/huiyuanchongzhi/list",
+    "pages/huiyuanchongzhi/add-or-update",
+    "pages/huiyuanchongzhi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的游泳馆管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#40AE36",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "公告信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
